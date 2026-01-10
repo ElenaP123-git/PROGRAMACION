@@ -64,6 +64,8 @@ txt = "The best things in life are free!"
 print("free" in txt) #true
 print("expensive" not in txt) #true
 
+# [inicio:fin]
+
 print(dias_semana[1:4]) #se imprime todo de la lista entre el 1 y el 4
 print(dias_semana[0:len(dias_semana)]) #imprime lista completa
 print(dias_semana[-len(dias_semana)])  #si la lista tiene 7 elementos imprime primero el -7
@@ -76,6 +78,7 @@ print(dias_semana[:-1]) #imprime todos los elementos de la lista menos el últim
 # CADENAS
 
 a = "Hello, World"
+
 print(a[1])  # acceder a un carácter mediante su posición (e)
 
 mensaje9 = "Hola Mundo"
@@ -107,7 +110,7 @@ s = "Esto es una comilla doble \" de ejemplo"
 print(s)
 
 
-# Pasar de lista a cadena y de cadena a lista
+# Pasar de cadena a lista
 
 txt = "Bienvenidos,a,la,clase,de,programación"
 lista = txt.split(',') # (split): Devuelve una lista de cadenas separadas por , si no pones nada separa por espacios
@@ -120,7 +123,9 @@ print(nombre)
 nombre.insert(0,"A") 
 print (nombre)
 
+# Pasar de lista a cadena
+
 cadenasalida = ""
-for valor in nombre: 
-  cadenasalida = cadenasalida + valor
+for y in nombre: 
+  cadenasalida = cadenasalida + y
 print(cadenasalida)

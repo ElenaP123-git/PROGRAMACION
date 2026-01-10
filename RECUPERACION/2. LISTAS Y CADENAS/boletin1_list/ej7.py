@@ -7,4 +7,4 @@ print("Temperaturas medias introducidas!!")
 print("Las tempertaturas son: ", temp_media)
 
 for z in range(12):
-    print(meses[z]," : (",temp_media[z],"ºC)")
+    print(meses[z]," : (",temp_media[z],"ºC)") # in love w this
