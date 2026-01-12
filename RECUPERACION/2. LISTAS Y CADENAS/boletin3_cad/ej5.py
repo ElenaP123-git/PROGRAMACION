@@ -1,3 +1,5 @@
+# SUBCADENA EN CADENA POR DETRÁS
+
 cadena = input("Introduce una cadena: ")
 subcadena = input("Por qué termina la cadena??: ")
 
