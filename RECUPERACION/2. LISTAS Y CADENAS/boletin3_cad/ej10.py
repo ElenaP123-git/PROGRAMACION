@@ -1,4 +1,4 @@
-# LONGITUD
+# LONGITUD (len) y REPLACE
 
 cadena = input("Escribe lo que quieras: ").lower()
 caracter1 = input("Introduce un carácter: ").lower()
