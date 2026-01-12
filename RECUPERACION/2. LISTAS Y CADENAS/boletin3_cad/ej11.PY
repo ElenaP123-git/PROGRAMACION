@@ -2,7 +2,9 @@
 
 cadena = input("Introduce un número grande (ej:28397424): ")
 
-
+cad_rev = ""
+for x in range (len(cadena)-1,-1,-1):
+    cad_rev += cadena[x]
 
 resultado = ""
 contador = 0
