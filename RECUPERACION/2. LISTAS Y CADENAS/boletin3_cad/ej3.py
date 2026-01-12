@@ -1,3 +1,5 @@
+# % Y CONTADOR DE CARACTERES
+
 print("Opción 1: escribirá por pantalla cada carácter de una cadena introducida por teclado") 
 print("Opción 2: pedirá un caracter por teclado y el sistema  contará el % de veces que aparece un carácter que se ha introducido por teclado")
 
