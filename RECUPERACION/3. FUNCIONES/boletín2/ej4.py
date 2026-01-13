@@ -7,11 +7,12 @@ matriz = [
     [4, 9, 2]
 ]
 
-def sumaMatriz(matriz): 
-    total = 0
-    for fila in matriz:
-        for elemento in fila:
-            total += elemento
-    return total
+def sumaMatriz(matriz):
+    suma = 0
+    for filas in matriz:
+        for elementos in filas:
+            suma = suma + elementos
+    return suma
 
-print(sumaMatriz(matriz))   # → 45
+resultado = sumaMatriz(matriz)
+print("La suma de la matríz es: ", resultado)

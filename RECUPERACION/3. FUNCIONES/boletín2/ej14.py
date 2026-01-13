@@ -1,4 +1,4 @@
-# Matriz posición
+# Matriz posición (IA)
 
 def matrizPosicion(filas, columnas):
     matriz = []

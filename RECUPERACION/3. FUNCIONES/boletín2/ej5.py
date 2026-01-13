@@ -1,4 +1,5 @@
 # Lista de números pares (recorrer matriz y extraer pares)
+# (IA)
 
 matriz = [
     [8, 1, 6],

@@ -6,10 +6,13 @@ matriz = [
     [4, 9, 2]
 ]
 
-def sumaColumna(matriz, columna):
-    total = 0
+def sumaColumna(matriz,columna):
+    suma = 0
+    colu = []
     for i in range(len(matriz)):
-        total += matriz[i][columna]
-    return total
+        colu.append(matriz[i][columna])
+    for x in colu:
+        suma = suma + x
+    return suma
 
-print(sumaColumna(matriz, 0))   # columna 0 → 8 + 3 + 4 = 15
+print("La suma de la columna es: ", sumaColumna(matriz,1))

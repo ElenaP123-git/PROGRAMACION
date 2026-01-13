@@ -1,4 +1,4 @@
-# Suma de una diagonal
+# Suma de una diagonal si es cuadrada (IA)
 
 matriz = [
     [8, 1, 6],

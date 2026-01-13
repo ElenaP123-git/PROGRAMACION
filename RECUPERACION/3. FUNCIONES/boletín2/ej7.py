@@ -1,4 +1,5 @@
 # Suma de filas pares (filas 0, 2, 4… → suma)
+# (IA)
 
 matriz = [
     [8, 1, 6],

@@ -1,5 +1,5 @@
 # Igualdad de sumas
-# que
+# que (IA)
 
 matriz = [
     [8, 1, 6],

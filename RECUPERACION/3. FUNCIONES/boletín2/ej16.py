@@ -1,4 +1,4 @@
-# Lluvias (matriz aleatoria 20×7)
+# Lluvias (matriz aleatoria 20×7) (IA)
 
 matriz = [
     [8, 1, 6],

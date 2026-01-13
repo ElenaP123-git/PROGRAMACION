@@ -1,4 +1,4 @@
-# Máximos en la matriz
+# Máximos en la matriz fila-col (IA)
 
 matriz = [
     [8, 1, 6],

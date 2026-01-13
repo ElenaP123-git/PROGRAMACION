@@ -6,10 +6,10 @@ matriz = [
     [4, 9, 2]
 ]
 
-def sumaFila(matriz, fila):
+def sumaFila(matriz,fila):
     suma = 0
-    for elemento in matriz[fila]:
-        suma = suma + elemento
+    for i in matriz[fila]: # dentro de la fila que se elija
+        suma = suma + i
     return suma
 
-print(sumaFila(matriz, 2))   # fila 2 → 4 + 9 + 2 = 15
+print("La suma de la fila, es: ", sumaFila(matriz,1))

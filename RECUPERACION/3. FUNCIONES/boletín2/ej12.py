@@ -1,4 +1,5 @@
 # Diagonales solo si es cuadrada (NxN)
+# (IA)
 
 matriz = [
     [8, 1, 6],
