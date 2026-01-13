@@ -1,4 +1,6 @@
 # Igualdad de sumas
+# que
+
 matriz = [
     [8, 1, 6],
     [3, 5, 7],
@@ -6,12 +8,19 @@ matriz = [
 ]
 
 def sumaPorFilasIgual(matriz):
-    suma0 = sum(matriz[0])
-    for fila in matriz:
-        if sum(fila) != suma0:
-            return False
-    return True
+    suma_ref = 0
+    for x in matriz[0]:
+        suma_ref += x
 
+    for i in range(1, len(matriz)):
+        suma = 0
+        filas = matriz[i]
+        for x in filas:
+            suma = suma + x
+        if suma != suma_ref:
+            return False
+        else:
+            return True
 
 def sumaColumna(matriz, columna):
     total = 0
@@ -25,7 +34,8 @@ def sumaPorColumnasIgual(matriz):
     for j in range(columnas):
         if sumaColumna(matriz, j) != suma0:
             return False
-    return True
+        else:
+            return True
 
 
 def sumaTotalIgual(matriz):

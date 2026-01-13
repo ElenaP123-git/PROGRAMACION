@@ -7,6 +7,9 @@ matriz = [
 ]
 
 def sumaFila(matriz, fila):
-    return sum(matriz[fila])
+    suma = 0
+    for elemento in matriz[fila]:
+        suma = suma + elemento
+    return suma
 
 print(sumaFila(matriz, 2))   # fila 2 → 4 + 9 + 2 = 15

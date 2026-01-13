@@ -11,20 +11,22 @@ def esCuadrada(matriz):
 
 def diagonalPrincipalSegura(matriz):
     if not esCuadrada(matriz):
-        return []
-    diagonal = []
-    for i in range(len(matriz)):
-        diagonal.append(matriz[i][i])
-    return diagonal
+        return [] # no devuelve nada
+    else:
+        diagonal = []
+        for i in range(len(matriz)):
+            diagonal.append(matriz[i][i])
+        return diagonal
 
 def diagonalSecundariaSegura(matriz):
     if not esCuadrada(matriz):
         return []
-    diagonal = []
-    n = len(matriz)
-    for i in range(n):
-        diagonal.append(matriz[i][n - 1 - i])
-    return diagonal
+    else:
+        diagonal = []
+        n = len(matriz)
+        for i in range(n):
+            diagonal.append(matriz[i][n - 1 - i])
+        return diagonal
 
 print(diagonalPrincipalSegura(matriz))   # → [8, 5, 2]
 print(diagonalSecundariaSegura(matriz))  # → [6, 5, 4]

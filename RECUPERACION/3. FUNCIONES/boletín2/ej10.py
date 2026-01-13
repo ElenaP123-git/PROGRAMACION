@@ -7,7 +7,11 @@ matriz = [
 ]
 
 def maxFila(matriz, fila):
-    return max(matriz[fila])
+    max = matriz[fila][0]
+    for x in matriz[fila]:
+            if x > max:
+                max = x
+    return max
 
 def maxColumna(matriz, columna):
     maximo = matriz[0][columna]

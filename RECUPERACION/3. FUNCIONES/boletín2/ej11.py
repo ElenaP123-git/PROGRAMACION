@@ -9,7 +9,7 @@ matriz = [
 def diagonalPrincipal(matriz):
     diag = []
     for i in range(len(matriz)):
-        diag.append(matriz[i][i])
+        diag.append(matriz[i][i]) # fila 0, col 0, fila 1, col 1...
     return diag
 
 def diagonalSecundaria(matriz):

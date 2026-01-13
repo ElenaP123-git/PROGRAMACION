@@ -7,6 +7,6 @@ matriz = [
 ]
 
 def obtenerElemento(matriz, fila, columna):
-    return matriz[fila][columna]
+    return matriz[fila][columna] # lista [sublistas][caracteres]
 
-print(obtenerElemento(matriz, 1, 2))
+print(obtenerElemento(matriz, 1, 2)) # fila 2, columna 3

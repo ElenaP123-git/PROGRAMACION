@@ -23,12 +23,20 @@ def diagonalSecundaria(matriz):
     return diag
 
 def sumaDiagonal(matriz, esPrincipal):
-    if not esCuadrada(matriz):
+    if not esCuadrada(matriz): # puede hacerse una variable para esto
         return 0
-    if esPrincipal:
-        return sum(diagonalPrincipal(matriz))
+    elif esPrincipal:
+        diag1 = diagonalPrincipal(matriz)
+        sum = 0
+        for i in diag1:
+            sum = sum + i
+        return sum
     else:
-        return sum(diagonalSecundaria(matriz))
+        suma = 0
+        diag2 = diagonalSecundaria(matriz)
+        for i in diag2:
+            suma = suma + i
+        return  suma
 
 print(sumaDiagonal(matriz, True))   # → 8 + 5 + 2 = 15
 print(sumaDiagonal(matriz, False))  # → 6 + 5 + 4 = 15
