@@ -64,7 +64,7 @@ txt = "The best things in life are free!"
 print("free" in txt) #true
 print("expensive" not in txt) #true
 
-# [inicio:fin]
+# [inicio:fin-1]
 
 print(dias_semana[1:4]) #se imprime todo de la lista entre el 1 y el 4
 print(dias_semana[0:len(dias_semana)]) #imprime lista completa
@@ -114,7 +114,7 @@ print(s)
 
 txt = "Bienvenidos,a,la,clase,de,programación"
 lista = txt.split(',') # (split): Devuelve una lista de cadenas separadas por , si no pones nada separa por espacios
-['Bienvenidos', 'a', 'la', 'clase', 'de', 'programación'] # resultado
+['Bienvenidos', 'a', 'la', 'clase', 'de', 'programación'] # resultado lista[2] == la
 
 nombre = "elena"
 print(nombre)

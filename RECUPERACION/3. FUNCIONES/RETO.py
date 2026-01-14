@@ -28,7 +28,9 @@ rec = input("Introduce el nombre del recurso: ")
 lista_rec = extreaer_datos(rec, matriz)
 print(lista_rec)
 
-mensaje =  "ERR_SISTEMA::Agua::-15++FIN"
+
+# no entendí esto
+mensaje =  "ERR_SISTEMA::Agua::-15++FIN" # mensaje.split("::") mensaje[1] (agua)
 lecturaBaseDatos = extreaer_datos(mensaje, matriz)
 
 
